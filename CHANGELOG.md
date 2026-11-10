@@ -1,6 +1,6 @@
 # Release Notes for Cloudflare R2
 
-## Unreleased
+## 0.1.0 - 2026-11-10
 
 ### Added
 
@@ -19,5 +19,3 @@
 - Report missing buckets as operational errors rather than missing files when R2 supplies that error code.
 - Reject detached responses that cannot provide a readable stream.
 - Exclude development files from release archives while retaining user documentation and licensing.
-
-The first release has not been tagged. Before publishing, replace `Unreleased` with a version heading in the format `0.1.0 - YYYY-MM-DD`, using the actual release date.

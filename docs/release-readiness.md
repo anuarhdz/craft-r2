@@ -2,6 +2,8 @@
 
 Reviewed on 2026-11-10.
 
+Release preparation on 2026-11-10: the initial repository commit has been created, and the changelog is dated for tag `0.1.0`. Strict Composer validation, coding standards, static analysis, 25 unit tests (45 assertions), dependency audit, and the disposable Craft installation/lifecycle checks passed again. The review below records the pre-release assessment; live R2 validation and distribution service setup remain outstanding.
+
 ## Decision
 
 The repository is suitable for an initial private GitHub repository after reviewing and committing the working tree. Public release remains conditional on a live R2 smoke test, a dated release/tag, working public documentation links, and the chosen distribution accounts.

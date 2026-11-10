@@ -24,10 +24,10 @@ While the GitHub repository is private, add its VCS repository to the consuming 
 }
 ```
 
-After the repository has been created and the first commit pushed, install with an SSH identity that has access:
+Install version `0.1.0` with an SSH identity that has access:
 
 ```sh
-composer require anuarhdz/craft-r2:dev-main
+composer require anuarhdz/craft-r2:^0.1.0
 php craft plugin/install r2
 ```
 
