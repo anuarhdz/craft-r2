@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "skills": {
+    "craft-cloud": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-cloud/SKILL.md",
+      "computedHash": "aab0d7155e13f5813266174bf4b56c05c0d139a5ba9cd2c69ec89d09eea16b48"
+    },
+    "craft-content-modeling": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-content-modeling/SKILL.md",
+      "computedHash": "512d22a5995f2f20cc8674c7442580335186f02ae68f2a88c2e216d159d7e237"
+    },
+    "craft-fortrabbit": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-fortrabbit/SKILL.md",
+      "computedHash": "82710f6d9fc07cf20398c768306c51731bb91bcb100e7e79af0cf511ab988c3d"
+    },
+    "craft-garnish": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-garnish/SKILL.md",
+      "computedHash": "9bf3fb3609ac46c4cfd044acfa109ec4ef4df512f71ec3e22f44d1a2161843ec"
+    },
+    "craft-pest": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-pest/SKILL.md",
+      "computedHash": "ceecfdbea0062aaf257b637d9e5aba2a2eddb7461502364dda107e8bf0a52a81"
+    },
+    "craft-php-guidelines": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-php-guidelines/SKILL.md",
+      "computedHash": "e896951739ee1a1f44ee6a14d8ac8b7e4b195ff7571b96a351d80ffb8c69e0b9"
+    },
+    "craft-plugin-release": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-plugin-release/SKILL.md",
+      "computedHash": "d41f09efa7ce7f582d77686040cdbb0a585df5519ced3d2068c34557e2a27df3"
+    },
+    "craft-plugins": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-plugins/SKILL.md",
+      "computedHash": "e165cbd086a5670e71a9c5f181bb691f40dd3c31fc2ae0671d32ad3d346a0369"
+    },
+    "craft-project-setup": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-project-setup/SKILL.md",
+      "computedHash": "b593a8c9ee409a1708667fc23fbed9f45ba9874b96a0e4c522409a83f3a4ca0d"
+    },
+    "craft-site": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-site/SKILL.md",
+      "computedHash": "c10686442e5bc5b26773fd3956c05c583d03d7b9c4f37a6735d318cf75ae230c"
+    },
+    "craft-twig-guidelines": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craft-twig-guidelines/SKILL.md",
+      "computedHash": "e770436b50546bf280d89e40b08d6f80822307cdcd8e77f6358a3d6013cbfb56"
+    },
+    "craftcms": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/craftcms/SKILL.md",
+      "computedHash": "9b7b52d01b33d205f9263594002dbcfd413d0aa122119208bb3ed1231fc390b7"
+    },
+    "ddev": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/ddev/SKILL.md",
+      "computedHash": "35f01e45b2a329daa8f5f36aa51c1cdd0219120b6e23650563b6b7cd691171d2"
+    },
+    "servd": {
+      "source": "michtio/craftcms-claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/servd/SKILL.md",
+      "computedHash": "255b19047d548dbc9d2320d81c82a513250d7ed33cf2f0341ce7b152bdd1a7da"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+name: craft-r2
+type: php
+# This repository is a package, not a Craft application.
+docroot: .ddev/web
+php_version: "8.2"
+webserver_type: nginx-fpm
+xdebug_enabled: false
+database:
+  type: mariadb
+  version: "10.11"
+composer_version: "2"
+disable_upload_dirs_warning: true

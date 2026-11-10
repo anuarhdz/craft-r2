@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+## Description: Verify the plugin in a disposable Craft installation
+## Usage: test-install
+## Example: ddev test-install
+set -euo pipefail
+if [[ "${DDEV_PROJECT:-}" != "craft-r2" ]]; then
+    echo 'This command requires the craft-r2 DDEV project.' >&2
+    exit 1
+fi
+ddev mysql -e "CREATE DATABASE IF NOT EXISTS craft_r2_test; GRANT ALL PRIVILEGES ON craft_r2_test.* TO 'db'@'%'"
+ddev exec bash tests/setup-integration.sh

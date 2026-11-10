@@ -1,0 +1,14 @@
+/vendor/
+/composer.lock
+/.cache/
+/.phpunit.cache/
+/.idea/
+/.DS_Store
+
+# Local credentials and disposable Craft installation
+.env
+.env.*
+!.env.example
+/auth.json
+/.test-app/
+/dist/

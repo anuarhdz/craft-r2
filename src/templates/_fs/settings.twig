@@ -1,0 +1,72 @@
+{% import "_includes/forms" as forms %}
+
+{{
+    forms.autosuggestField({
+        label: "Account ID"|t("r2"),
+        id: "accountId",
+        name: "accountId",
+        errors: fs.getErrors("accountId"),
+        suggestEnvVars: true,
+        value: fs.accountId,
+        required: true
+    })
+}}
+
+{{
+    forms.autosuggestField({
+        label: "Access Key ID"|t("r2"),
+        id: "accessKeyId",
+        name: "accessKeyId",
+        errors: fs.getErrors("accessKeyId"),
+        suggestEnvVars: true,
+        value: fs.accessKeyId,
+        required: true
+    })
+}}
+
+{{
+    forms.autosuggestField({
+        label: "Secret Access Key"|t("r2"),
+        id: "secretAccessKey",
+        name: "secretAccessKey",
+        errors: fs.getErrors("secretAccessKey"),
+        suggestEnvVars: true,
+        value: fs.secretAccessKey,
+        instructions: "Use an environment variable reference to keep credentials out of project config."|t("r2"),
+        required: true
+    })
+}}
+
+{{
+    forms.autosuggestField({
+        label: "Bucket"|t("r2"),
+        id: "bucket",
+        name: "bucket",
+        errors: fs.getErrors("bucket"),
+        suggestEnvVars: true,
+        value: fs.bucket,
+        required: true
+    })
+}}
+
+{{
+    forms.autosuggestField({
+        label: "Region"|t("r2"),
+        id: "region",
+        name: "region",
+        errors: fs.getErrors("region"),
+        suggestEnvVars: true,
+        value: fs.region,
+        instructions: 'Usually "auto" for R2.'|t("r2")
+    })
+}}
+
+{{ forms.autosuggestField({
+    label: 'Subfolder'|t('r2'),
+    id: 'subfolder',
+    name: 'subfolder',
+    errors: fs.getErrors('subfolder'),
+    suggestEnvVars: true,
+    value: fs.subfolder,
+    instructions: 'Optional prefix inside the bucket. Include it in the Base URL when serving files publicly.'|t('r2')
+}) }}

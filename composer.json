@@ -1,0 +1,75 @@
+{
+  "name": "anuarhdz/craft-r2",
+  "description": "Cloudflare R2 filesystem for Craft CMS.",
+  "type": "craft-plugin",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/anuarhdz/craft-r2/issues?state=open",
+    "source": "https://github.com/anuarhdz/craft-r2",
+    "docs": "https://github.com/anuarhdz/craft-r2",
+    "rss": "https://github.com/anuarhdz/craft-r2/releases.atom"
+  },
+  "require": {
+    "php": ">=8.2",
+    "craftcms/cms": "^5.9.0",
+    "aws/aws-sdk-php": "^3.402"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main",
+    "phpunit/phpunit": "^11.5",
+    "phpstan/phpstan": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "anuarhdz\\r2\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "r2",
+    "name": "Cloudflare R2",
+    "developer": "anuarhdz",
+    "documentationUrl": "https://github.com/anuarhdz/craft-r2",
+    "class": "anuarhdz\\r2\\Plugin",
+    "changelogUrl": "https://raw.githubusercontent.com/anuarhdz/craft-r2/main/CHANGELOG.md"
+  },
+  "scripts": {
+    "check-cs": "php -d error_reporting=24575 vendor/bin/ecs check --ansi --no-progress-bar",
+    "fix-cs": "@check-cs --fix",
+    "phpstan": "phpstan --memory-limit=1G",
+    "test": "phpunit",
+    "validate-package": "@composer --no-plugins validate --strict",
+    "check": [
+      "@validate-package",
+      "@check-cs",
+      "@phpstan",
+      "@test"
+    ]
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  },
+  "authors": [
+    {
+      "name": "anuarhdz"
+    }
+  ],
+  "autoload-dev": {
+    "psr-4": {
+      "anuarhdz\\r2\\tests\\": "tests/"
+    }
+  },
+  "keywords": [
+    "craft",
+    "cms",
+    "cloudflare",
+    "r2",
+    "assets",
+    "filesystem"
+  ],
+  "homepage": "https://github.com/anuarhdz/craft-r2"
+}
